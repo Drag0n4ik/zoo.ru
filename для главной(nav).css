@@ -1,0 +1,62 @@
+﻿.nav {
+background: white;
+text-align: center;
+}
+.nav a {
+text-decoration: none;
+display: block;
+transition: .5s linear;
+}
+.nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.topmenu > li {
+display: inline-block;
+/*Если вместо block задать inline-block,
+меню будет горизонтальным*/
+position: relative;
+}
+.topmenu > li > a {
+font-weight: bold;
+padding: 10px 30px;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #1c1c1c;
+border: 1px solid #999;
+}
+.submenu {
+position: absolute;
+left: 10px;
+z-index: 5;
+width: 240px;
+visibility: hidden;
+opacity: 0;
+transform: translateY(10px);
+transition: .5s ease-in-out;
+}
+.submenu li {
+position: relative;
+border: 1px solid #999;
+margin:2px;
+}
+.submenu a {
+background: white;
+color: #1c1c1c;
+text-align: center;
+font-size: 14px;
+letter-spacing: 1px;
+padding: 10px 20px;
+}
+.submenu .submenu {
+position: absolute;
+top: 0;
+left: 200px;
+}
+.nav li:hover > .submenu {
+visibility: visible;
+opacity: 1;
+transform: translateY(0px);
+}
