@@ -1,0 +1,22 @@
+body{
+	background-size: 100%;
+	color: #fff;
+	background-attachment: fixed; /* Фон страницы фиксируется */
+	background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+}
+.menu0{
+	width: 100%;
+	background: red;
+	
+}
+.menu1{
+	width:50%;
+	float: right;
+}
+.menu2{
+	width:50%;
+	float: right;
+}
+p{
+	font-size: 150%;
+}
