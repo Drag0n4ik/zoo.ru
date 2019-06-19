@@ -39,6 +39,7 @@
 	text-align: center;
 	overflow:hidden;
 	font-size: +150%;
+	transition:bottom 0.2s ease-out;
 	
 }
 .menu a{
@@ -118,3 +119,19 @@ visibility: visible;
 opacity: 1;
 transform: translateY(0px);
 }
+#bar {
+    top:10em; right:5em; /* Положение */
+     padding: .5em; /* Поля */
+     margin: 0; /* Отступы */
+     position: absolute; /* Абсолютное позиционирование */
+     width: 2em; /* Ширина */
+     background: #333; /* Цвет фона */
+     color: #fff; /* Цвет текста */
+     text-align: center; /* Выравнивание по центру */
+     /* Переход */
+     -webkit-transition: top 1s ease-out 0.5s;
+     -moz-transition: top 1s ease-out 0.5s;
+     -o-transition: top 1s ease-out 0.5s;
+     transition: top 1s ease-out 0.5s;
+    }
+   #bar:hover { top: 0; }
