@@ -1,7 +1,7 @@
 body{
 	background-size: 100%;
 	color: #fff;
-	background-attachment: fixed; /* Фон страницы фиксируется */
+	
 	background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
 }
 .menu0{
