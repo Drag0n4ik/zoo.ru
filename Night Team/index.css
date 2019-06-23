@@ -85,7 +85,8 @@ p{
 	height: 300px;
 	background: black;
 	border-radius: 5%;
-	margin: 2% 0% 0% 10%
+	margin: 2% 0% 0% 10%;
+	display:block;
 }
 a{
 	text-decoration: none;
