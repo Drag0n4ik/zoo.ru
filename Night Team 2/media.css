@@ -7,6 +7,11 @@
 	.bottom_menu{
 		height: 70px;
 	}
+	.minimenu0 {
+		display: none;
+	}
+}	.scrit img{
+	display: none;
 }
 @media only screen and (max-width: 768px)
 {
@@ -20,7 +25,7 @@
 	}
 	.left_menu{
 		width: 100%;
-		
+		height: 970px;
 		float: none;
 		font-size: +18px;
 	}
@@ -30,18 +35,27 @@
 		margin-left: 0px;
 		font-size: +16px;
 		background: red;
-		margin-top: 355px;
+		
 	}
 	.right_menu{
-		width: 100%;
-		
-		float: none;
+		display: none;
 	}
 	.bottom_menu{
 		height: 80px;
 		font-size: +16px;
 	}
-	
+	.minimenu{
+		
+	}
+img{
+		width: 100%;
+		height: 200px;
+	}
+	.minimenu0{
+		display: inline-block;
+		
+	}
+}
 @media only screen and (max-width: 480px)
 {
 	.wrapper{
@@ -52,18 +66,33 @@
 		font-size: +13px;
 		height: 120px;
 	}
+	.left_menu{
+		height: 970px;
+	}
 	.menu{
 		width: 100%;
 		margin-left: -1px;
 		font-size: +14px;
-		background: red
-		margin-top: 355px;
+		background: red;
+		
 	}
 	.right_menu{
-		
+		display: none;
 	}
 	.bottom_menu{
 		height: 100px;
+	}
+	.minimenu{
+		
+		
+	}
+	.minimenu0{
+		display: block;
+		
+	}
+	img{
+		width: 100%;
+		height: 200px;
 	}
 }
 @media only screen and (max-width: 320px)
@@ -77,17 +106,33 @@
 		height: 110px;
 		font-size: +12px;
 	}
+	.left_menu{
+		height: 970px;
+	}
 	.menu{
 		width: 100%;
 		margin-left: -1px;
 		font-size: +10px;
-		background: red
-		margin-top: 355px;
+		background: red;
+		
+		display: initial;
+	}
+	.minimenu{
+		
+		
+	}
+	.minimenu0{
+		display: block;
+		
 	}
 	.right_menu{
-		
+		display:none;
 	}
 	.bottom_menu{
 		height: 115px;
+	}
+	img{
+		width: 100%;
+		height: 200px;
 	}
 }
