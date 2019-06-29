@@ -136,6 +136,7 @@ a:active{
 	}
 	.head{
 		font-size: +13px;
+		height: 120px;
 	}
 	.menu{
 		width: 100%;
@@ -151,10 +152,16 @@ a:active{
 	.wrapper{
 		width: 260px;
 		max-width: 320px;
+		font-size: +10px;
+	}
+	.head{
+		height: 110px;
+		font-size: +12px;
 	}
 	.menu{
 		width: 100%;
 		margin-left: -1px;
+		font-size: +10px;
 	}
 	.right_menu{
 		display: none;
