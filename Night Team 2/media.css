@@ -30,10 +30,11 @@
 		margin-left: 0px;
 		font-size: +16px;
 		background: red;
+		margin-top: 355px;
 	}
 	.right_menu{
 		width: 100%;
-		margin-top: 355px;
+		
 		float: none;
 	}
 	.bottom_menu{
@@ -56,9 +57,10 @@
 		margin-left: -1px;
 		font-size: +14px;
 		background: red
+		margin-top: 355px;
 	}
 	.right_menu{
-		margin-top: 355px;
+		
 	}
 	.bottom_menu{
 		height: 100px;
@@ -80,9 +82,10 @@
 		margin-left: -1px;
 		font-size: +10px;
 		background: red
+		margin-top: 355px;
 	}
 	.right_menu{
-		margin-top: 355px;
+		
 	}
 	.bottom_menu{
 		height: 115px;
