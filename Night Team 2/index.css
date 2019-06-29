@@ -146,6 +146,9 @@ a:active{
 	.right_menu{
 		display: none;
 	}
+	.bottom_menu{
+		height: 85px;
+	}
 }
 @media only screen and (max-width: 320px)
 {
@@ -165,5 +168,8 @@ a:active{
 	}
 	.right_menu{
 		display: none;
+	}
+	.bottom_menu{
+		height: 100px;
 	}
 }
