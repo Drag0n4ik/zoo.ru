@@ -75,6 +75,7 @@
 
 a{
 	text-decoration: none;
+	color: white;
 }
 a:visited{
 	color:white;
@@ -82,94 +83,4 @@ a:visited{
 }
 a:active{
  color: white;
-}
-@media only screen and (max-width: 992px)
-{
-	.wrapper{
-		width: 750px;
-		max-width: 992px;
-	}
-	.bottom_menu{
-		height: 70px;
-	}
-}
-@media only screen and (max-width: 768px)
-{
-	.wrapper{
-		width: 450px;
-		max-width: 768px;
-	}
-	.head{
-		height: 130px;
-		font-size: +13px;
-	}
-	.left_menu{
-		width: 100%;
-		margin-top: 0.5%;
-		float: none;
-		font-size: +18px;
-	}
-	.menu{
-		width: 100%;
-		margin-top: 0.5%;
-		margin-left: 0px;
-		font-size: +16px;
-	}
-	.right_menu{
-		width: 100%;
-		margin-top: 0.5%;
-		float: none;
-	}
-	.bottom_menu{
-		height: 80px;
-		font-size: +16px;
-	}
-	.right_menu{
-		display: none;
-	}
-}
-@media only screen and (max-width: 480px)
-{
-	.wrapper{
-		width: 320px;
-		max-width: 480px;
-	}
-	.head{
-		font-size: +13px;
-		height: 120px;
-	}
-	.menu{
-		width: 100%;
-		margin-left: -1px;
-		font-size: +14px;
-	}
-	.right_menu{
-		display: none;
-	}
-	.bottom_menu{
-		height: 100px;
-	}
-}
-@media only screen and (max-width: 320px)
-{
-	.wrapper{
-		width: 260px;
-		max-width: 320px;
-		font-size: +10px;
-	}
-	.head{
-		height: 110px;
-		font-size: +12px;
-	}
-	.menu{
-		width: 100%;
-		margin-left: -1px;
-		font-size: +10px;
-	}
-	.right_menu{
-		display: none;
-	}
-	.bottom_menu{
-		height: 115px;
-	}
 }
