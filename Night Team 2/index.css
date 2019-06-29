@@ -121,7 +121,7 @@ a:active{
 		float: none;
 	}
 	.bottom_menu{
-		height: 70px;
+		height: 80px;
 		font-size: +16px;
 	}
 	.right_menu{
@@ -147,7 +147,7 @@ a:active{
 		display: none;
 	}
 	.bottom_menu{
-		height: 85px;
+		height: 100px;
 	}
 }
 @media only screen and (max-width: 320px)
@@ -170,6 +170,6 @@ a:active{
 		display: none;
 	}
 	.bottom_menu{
-		height: 100px;
+		height: 115px;
 	}
 }
