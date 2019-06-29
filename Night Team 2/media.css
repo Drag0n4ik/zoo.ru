@@ -8,10 +8,11 @@
 		height: 70px;
 	}
 	.minimenu0 {	
-		
+		opacity: 0;
 	}
-	.scrit img{
+	img{
 	display: none;
+	
 	}
 }	
 
