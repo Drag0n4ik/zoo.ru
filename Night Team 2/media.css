@@ -20,7 +20,7 @@
 	}
 	.left_menu{
 		width: 100%;
-		margin-top: 0.5%;
+		
 		float: none;
 		font-size: +18px;
 	}
@@ -29,20 +29,18 @@
 		margin-top: 0.5%;
 		margin-left: 0px;
 		font-size: +16px;
+		background: red;
 	}
 	.right_menu{
 		width: 100%;
-		margin-top: 0.5%;
+		margin-top: 355px;
 		float: none;
 	}
 	.bottom_menu{
 		height: 80px;
 		font-size: +16px;
 	}
-	.right_menu{
-		display: none;
-	}
-}
+	
 @media only screen and (max-width: 480px)
 {
 	.wrapper{
@@ -57,9 +55,10 @@
 		width: 100%;
 		margin-left: -1px;
 		font-size: +14px;
+		background: red
 	}
 	.right_menu{
-		display: none;
+		margin-top: 355px;
 	}
 	.bottom_menu{
 		height: 100px;
@@ -80,9 +79,10 @@
 		width: 100%;
 		margin-left: -1px;
 		font-size: +10px;
+		background: red
 	}
 	.right_menu{
-		display: none;
+		margin-top: 355px;
 	}
 	.bottom_menu{
 		height: 115px;
