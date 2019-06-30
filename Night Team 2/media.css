@@ -35,6 +35,10 @@
 		height: 135px;
 		font-size: +18px;
 	}
+	.a{
+	text-decoration: none;
+	color: white;
+	}
 
 }
 @media only screen and (max-width: 2100px)
@@ -75,7 +79,10 @@
 		height: 130px;
 		font-size: +17px;
 	}
-
+	.a{
+	text-decoration: none;
+	color: white;
+	}
 }
 @media only screen and (max-width: 1800px)
 {
@@ -113,6 +120,10 @@
 		height: 120px;
 		font-size: +16px;
 	}
+	.a{
+	text-decoration: none;
+	color: white;
+}
 	
 }
 @media only screen and (max-width: 1500px)
@@ -151,6 +162,10 @@
 		height: 115px;
 		font-size: +16px;
 	}
+	.a{
+	text-decoration: none;
+	color: white;
+}
 	
 }
 @media only screen and (max-width: 1200px)
@@ -188,6 +203,10 @@
 		height: 120px;
 		font-size: +15.5px;
 	}
+	.a{
+	text-decoration: none;
+	color: white;
+}
 }	
 
 @media only screen and (max-width: 992px)
@@ -205,6 +224,10 @@
 	.minimenu0 img {	
 		display: none;
 	}
+	a{
+	text-decoration: none;
+	color: white;
+}
 	.telmenu{
 		display: none;}
 
