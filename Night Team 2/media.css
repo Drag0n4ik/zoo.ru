@@ -7,11 +7,18 @@
 	.bottom_menu{
 		height: 130px;
 	}
+	.left_menu{
+		font-size: +18px;
+	}
+	.right_menu{
+		font-size: +18px;
+	}
 	.minimenu0 img {	
 		display: none;
 	}
 	.telmenu{
 		display: none;
+		
 	}
 	.img{
 		width: 100%;
@@ -29,6 +36,12 @@
 		width: 1800px;
 		
 	}
+	.left_menu{
+		font-size: +20px;
+	}
+	.right_menu{
+		font-size: +20px;
+	}
 	.bottom_menu{
 		height: 120px;
 	}
@@ -37,6 +50,7 @@
 	}
 	.telmenu{
 		display: none;
+
 	}
 	.img{
 		width: 100%;
@@ -57,6 +71,12 @@
 	.bottom_menu{
 		height: 70px;
 	}
+	.left_menu{
+		font-size: +18px;
+	}
+	.right_menu{
+		font-size: +18px;
+	}
 	.minimenu0 img {	
 		display: none;
 	}
@@ -69,7 +89,7 @@
 	}
 	.bottom_menu{
 		height: 120px;
-		font-size: +16.5px;
+		font-size: +16px;
 	}
 	
 }
@@ -81,6 +101,12 @@
 	}
 	.bottom_menu{
 		height: 70px;
+	}
+	.left_menu{
+		font-size: +16px;
+	}
+	.right_menu{
+		font-size: +16px;
 	}
 	.minimenu0 img {	
 		display: none;
@@ -104,6 +130,12 @@
 		width: 1100px;
 		
 	}
+	.left_menu{
+		font-size: +15.5px;
+	}
+	.right_menu{
+		font-size: +15.5px;
+	}
 	.bottom_menu{
 		height: 70px;
 	}
@@ -119,7 +151,7 @@
 	}
 	.bottom_menu{
 		height: 120px;
-		font-size: +16.3px;
+		font-size: +15.5px;
 	}
 }	
 
