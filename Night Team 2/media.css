@@ -28,6 +28,9 @@
 		width: 100%;
 		height: 200px;
 	}
+	.menu p{
+		padding: 5px;
+	}
 	.bottom_menu{
 		height: 135px;
 		font-size: +18px;
@@ -65,6 +68,9 @@
 		width: 100%;
 		height: 200px;
 	}
+	.menu p{
+		padding: 5px;
+	}
 	.bottom_menu{
 		height: 130px;
 		font-size: +17px;
@@ -96,6 +102,9 @@
 	.telmenu{
 		display: none;
 	}
+	.menu p{
+		padding: 5px;
+	}
 	.img{
 		width: 100%;
 		height: 230px;
@@ -124,6 +133,9 @@
 	.minimenu00{
 		margin-top:80%;
 		text-align: center;
+	}
+	.menu p{
+		padding: 5px;
 	}
 	.minimenu0 img {	
 		display: none;
@@ -165,6 +177,9 @@
 	.telmenu{
 		display: none;
 	}
+	.menu p{
+		padding: 5px;
+	}
 	.img{
 		width: 100%;
 		height: 200px;
@@ -196,6 +211,9 @@
 	.img{
 		width: 100%;
 		height: 200px;
+	}
+	.menu p{
+		padding: 5px;
 	}
 	.bottom_menu{
 		height: 120px;
@@ -231,6 +249,9 @@
 		background: black;
 		
 		
+	}
+	.menu p{
+		padding: 5px;
 	}
 	.right_menu{
 		display: none;
@@ -270,8 +291,10 @@
 		margin-left: -1px;
 		font-size: +14px;
 		background: black;
-		
-		
+			
+	}
+	.menu p{
+		padding: 5px;
 	}
 	.right_menu{
 		display: none;
@@ -305,6 +328,7 @@
 		background: black;
 
 	}
+
 	.menu{
 		width: 100%;
 		margin-left: -1px;
@@ -312,6 +336,9 @@
 		background: black;
 		
 		display: initial;
+	}
+	.menu p{
+		padding: 5px;
 	}
 	.minimenu{
 		
