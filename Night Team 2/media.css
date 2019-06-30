@@ -1,11 +1,28 @@
-@media only screen and (min-width: 1800px)
+@media only screen and (min-width: 2500px)
 {
 	.wrapper{
-		width: 100%;
+		width: 2150%;
 		
 	}
 	.bottom_menu{
-		height: 150px;
+		height: 130px;
+	}
+	.minimenu0 img {	
+		display: none;
+	}
+	.telmenu{
+		display: none;
+	}
+
+}
+@media only screen and (min-width: 2100px)
+{
+	.wrapper{
+		width: 1800%;
+		
+	}
+	.bottom_menu{
+		height: 120px;
 	}
 	.minimenu0 img {	
 		display: none;
