@@ -28,16 +28,9 @@
 		width: 100%;
 		height: 200px;
 	}
-	.menu p{
-		padding: 5px;
-	}
 	.bottom_menu{
 		height: 135px;
 		font-size: +18px;
-	}
-	.a{
-	text-decoration: none;
-	color: white;
 	}
 
 }
@@ -72,17 +65,11 @@
 		width: 100%;
 		height: 200px;
 	}
-	.menu p{
-		padding: 5px;
-	}
 	.bottom_menu{
 		height: 130px;
 		font-size: +17px;
 	}
-	.a{
-	text-decoration: none;
-	color: white;
-	}
+
 }
 @media only screen and (max-width: 1800px)
 {
@@ -109,9 +96,6 @@
 	.telmenu{
 		display: none;
 	}
-	.menu p{
-		padding: 5px;
-	}
 	.img{
 		width: 100%;
 		height: 230px;
@@ -120,10 +104,6 @@
 		height: 120px;
 		font-size: +16px;
 	}
-	.a{
-	text-decoration: none;
-	color: white;
-}
 	
 }
 @media only screen and (max-width: 1500px)
@@ -145,9 +125,6 @@
 		margin-top:80%;
 		text-align: center;
 	}
-	.menu p{
-		padding: 5px;
-	}
 	.minimenu0 img {	
 		display: none;
 	}
@@ -162,10 +139,6 @@
 		height: 115px;
 		font-size: +16px;
 	}
-	.a{
-	text-decoration: none;
-	color: white;
-}
 	
 }
 @media only screen and (max-width: 1200px)
@@ -192,9 +165,6 @@
 	.telmenu{
 		display: none;
 	}
-	.menu p{
-		padding: 5px;
-	}
 	.img{
 		width: 100%;
 		height: 200px;
@@ -203,10 +173,6 @@
 		height: 120px;
 		font-size: +15.5px;
 	}
-	.a{
-	text-decoration: none;
-	color: white;
-}
 }	
 
 @media only screen and (max-width: 992px)
@@ -224,19 +190,12 @@
 	.minimenu0 img {	
 		display: none;
 	}
-	a{
-	text-decoration: none;
-	color: white;
-}
 	.telmenu{
 		display: none;}
 
 	.img{
 		width: 100%;
 		height: 200px;
-	}
-	.menu p{
-		padding: 5px;
 	}
 	.bottom_menu{
 		height: 120px;
@@ -272,9 +231,6 @@
 		background: black;
 		
 		
-	}
-	.menu p{
-		padding: 5px;
 	}
 	.right_menu{
 		display: none;
@@ -314,10 +270,8 @@
 		margin-left: -1px;
 		font-size: +14px;
 		background: black;
-			
-	}
-	.menu p{
-		padding: 5px;
+		
+		
 	}
 	.right_menu{
 		display: none;
