@@ -1,3 +1,20 @@
+@media only screen and (max-width: 5000px)
+{
+	.wrapper{
+		width: 100%;
+		
+	}
+	.bottom_menu{
+		height: 100px;
+	}
+	.minimenu0 img {	
+		display: none;
+	}
+	.telmenu{
+		display: none;
+	}
+
+}
 @media only screen and (max-width: 1800px)
 {
 	.wrapper{
@@ -93,6 +110,7 @@
 		margin-left: 0px;
 		font-size: +16px;
 		background: black;
+		padding-top:5%;
 		
 	}
 	.right_menu{
@@ -132,6 +150,7 @@ img{
 		margin-left: -1px;
 		font-size: +14px;
 		background: black;
+		padding-top: 5%;
 		
 	}
 	.right_menu{
@@ -164,14 +183,14 @@ img{
 		margin-top: 2%;
 		display: block;
 		background: black;
-		
+
 	}
 	.menu{
 		width: 100%;
 		margin-left: -1px;
 		font-size: +10px;
 		background: black;
-		
+		padding-top: 5%;
 		display: initial;
 	}
 	.minimenu{
