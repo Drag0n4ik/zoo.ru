@@ -32,6 +32,10 @@
 		height: 135px;
 		font-size: +18px;
 	}
+	.menu p{
+		padding-top:5px;
+		padding-left: 10px;
+	}
 
 }
 @media only screen and (max-width: 2100px)
@@ -69,6 +73,10 @@
 		height: 130px;
 		font-size: +17px;
 	}
+	.menu p{
+		padding-top:5px;
+		padding-left: 10px;
+	}
 
 }
 @media only screen and (max-width: 1800px)
@@ -103,6 +111,10 @@
 	.bottom_menu{
 		height: 120px;
 		font-size: +16px;
+	}
+	.menu p{
+		padding-top:5px;
+		padding-left: 10px;
 	}
 	
 }
@@ -139,6 +151,10 @@
 		height: 115px;
 		font-size: +16px;
 	}
+	.menu p{
+		padding-top:5px;
+		padding-left: 10px;
+	}
 	
 }
 @media only screen and (max-width: 1200px)
@@ -173,6 +189,10 @@
 		height: 120px;
 		font-size: +15.5px;
 	}
+	.menu p{
+		padding-top:5px;
+		padding-left: 10px;
+	}
 }	
 
 @media only screen and (max-width: 992px)
@@ -189,6 +209,10 @@
 	}
 	.minimenu0 img {	
 		display: none;
+	}
+	.menu p{
+		padding-top:5px;
+		padding-left: 10px;
 	}
 	.telmenu{
 		display: none;}
@@ -232,6 +256,10 @@
 		
 		
 	}
+	.menu p{
+		padding-top:5px;
+		padding-left: 10px;
+	}
 	.right_menu{
 		display: none;
 	}
@@ -272,6 +300,10 @@
 		background: black;
 		
 		
+	}
+	.menu p{
+		padding-top:5px;
+		padding-left: 10px;
 	}
 	.right_menu{
 		display: none;
@@ -315,7 +347,8 @@
 		display: initial;
 	}
 	.menu p{
-		padding: 5px;
+		padding-top:5px;
+		padding-left: 10px;
 	}
 	.minimenu{
 		
