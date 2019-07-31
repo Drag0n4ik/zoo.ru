@@ -1,11 +1,9 @@
 *{
-
 	margin: 0 auto;
 	padding: 0 auto;
 	text-decoration: none;
 	list-style:none;
 }
-
 a{
 	color: white;
 }
@@ -17,12 +15,10 @@ input{
 }
 input:hover{
 	background:yellow;
-
 }
 p{
 	color: white;
 }
-	
 .head{
 	margin-top: -42px;
 	width: 100%;
@@ -59,17 +55,14 @@ display: inline-block;
 	background:  #474376;
 	border-bottom: solid black 3px;
 	font-size: 2.2em;
-
 }
 .tov p{
 	color: white;
 	display: inline-block;
-
 }
 .tov p:hover{
 	color:yellow;
-	font-style: italic; 
-
+	font-style: italic;
 }
 .registr{
 	
@@ -78,7 +71,6 @@ display: inline-block;
 	margin-top: 5px;
 	font-size: 1.5em;
 	display: block;
-	
 }
 .prodaja{
 	float: left;
@@ -104,11 +96,8 @@ display: inline-block;
 	background: yellow;
 	color: black;
 	font-style: italic; 
-
 }
 /* левое меню */
-
-
 ul{
 	width: 100%;
 	display: block;
@@ -128,38 +117,32 @@ li ul{
 	margin-top: -35px;
 	margin-left: 25%;
 	float: left;
-	
-
-
 }
 li a{
 	display: block;
 	color: white;
 	padding: 10px;
-
-
 }
 li a:hover{
 	background: yellow;
 	color: black;
 	font-style: italic; 
-
 }
 li:hover ul{
 	display: block;
 	background:#889999;
 	padding: 5px;	
-
 }
 .leftmenu{
 	width: 100%;
 	display: inline-block;
 }
 .nav{
-
 	width: 25%;
 	float: left;
-	
+}
+.ull{
+	top: 21%;
 }
 .menu0{
 	margin: 0px 0px 0px 0px ;
@@ -167,13 +150,8 @@ li:hover ul{
 	height: 550px;
 	display:inline-block;
 	background: #999;
-	
-	
-
-
 }
 .menu0 p{
-
 	text-align: center;
 	
 	font-size: 2.5em;
@@ -186,8 +164,6 @@ li:hover ul{
 	float: left;
 	display: block;
 }
-
-
 .o1{
 	width: 100px;
 	background: black;
@@ -196,9 +172,7 @@ li:hover ul{
 	margin-bottom: 50px;
 }
 .o2{
-	
 	margin: 5px 0px 250px 0px;
-	
 	display: none;
 }
 .o1 a{
@@ -207,7 +181,6 @@ li:hover ul{
 }
 .o2:hover li{
 	display: block;
-
 }
 
 .g{ /* заголовок в под меню */
@@ -224,13 +197,11 @@ li:hover ul{
 .gg{
 	display: inline-block;
 	width: 48%;
-	
 }
 .podbottem{
 	margin-top: -0.3%;
 	width: 100%;
 	height: 50px;
-	
 }
 .podbottem_left{
 	width: 25%;
@@ -238,7 +209,6 @@ li:hover ul{
 	background: #474376;
 	float: left;
 	border-bottom: solid black 1px;
-
 }
 .podbottem_right{
 	width: 75%;
@@ -285,4 +255,182 @@ li:hover ul{
 .bottem:hover a{
 	color: yellow;
 	font-style: italic; 
+}
+@media only screen and (min-width: 2050px){
+	.head{
+	margin-top: -62px;
+	height:62px;
+}
+.head2{
+	margin-top: 62px;
+	height:80px;	
+}
+.registr{
+	margin-right: 30px;
+	margin-top: 15px;
+	font-size: 1.7em;
+}
+.prodaja{
+	margin-left: 30px;
+	margin-top: 15px;
+	font-size: 1.7em;
+}
+.registr a{
+	padding: 15px;
+}
+.prodaja  a{
+	padding: 15px;
+}
+	.menu{
+		margin:2.0% 3% 0% 2.0%;
+	}
+input{
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 1.5em;
+}
+.mag{	
+	font-size: 2.7em;
+}
+.tov p{
+	font-size: 1.5em;
+}
+ul{
+	border-bottom: solid black 3px;
+}
+li ul{
+	height: 600px;
+}
+li a{
+	font-size: 1.5em;
+}
+.ull li a{
+	font-size: 1.5em;
+}
+.menu0{
+	height:710px;
+}
+.menu{
+	width: 22%;
+	height: 160px;
+	margin: 3% 1% 0% 1.8%;
+	background: #777;
+	float: left;
+	display: block;
+}
+.podbottem{
+	margin-top: -0.3%;
+	height: 60px;
+}
+.podbottem_left{
+	height: 60px;
+}
+.podbottem_right{
+	height: 60px;
+	background: #999;
+}
+.s a{
+	padding-top: 5px;
+	font-size: 2.5em;
+}
+.bottem{
+	height: 120px;
+	
+}
+.bottem p{
+	padding-top: 2.5%;
+	font-size: 1.5em;
+}
+}
+@media only screen and (min-width:1650px ) and (max-width: 2050px){
+.head{
+	margin-top: -62px;
+	height:62px;
+}
+.head2{
+	margin-top: 62px;
+	height:80px;	
+}
+.registr{
+	margin-right: 30px;
+	margin-top: 15px;
+	font-size: 1.7em;
+}
+.prodaja{
+	margin-left: 30px;
+	margin-top: 15px;
+	font-size: 1.7em;
+}
+.registr a{
+	padding: 15px;
+}
+.prodaja  a{
+	padding: 15px;
+}
+	.menu{
+		margin:2.0% 3% 0% 2.0%;
+	}
+input{
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 1.5em;
+}
+.mag{	
+	font-size: 2.7em;
+}
+.tov p{
+	font-size: 1.5em;
+}
+ul{
+	border-bottom: solid black 3px;
+}
+li ul{
+	height: 600px;
+}
+li a{
+	font-size: 1.5em;
+}
+.ull li a{
+	font-size: 1.5em;
+}
+.menu0{
+	height:710px;
+}
+.menu{
+	width: 22%;
+	height: 160px;
+	margin: 4.5% 1% 0% 1.8%;
+	background: #777;
+	float: left;
+	display: block;
+}
+.podbottem{
+	margin-top: -0.3%;
+	height: 60px;
+}
+.podbottem_left{
+	height: 60px;
+}
+.podbottem_right{
+	height: 60px;
+	background: #999;
+}
+.s a{
+	padding-top: 5px;
+	font-size: 2.5em;
+}
+.bottem{
+	height: 120px;
+	
+}
+.bottem p{
+	padding-top: 2.5%;
+	font-size: 1.5em;
+}
+
+}
+@media only screen and (min-height: 1000px){
+	.ull{
+		top: 15%;
+	}
 }
