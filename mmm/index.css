@@ -1,0 +1,288 @@
+*{
+
+	margin: 0 auto;
+	padding: 0 auto;
+	text-decoration: none;
+	list-style:none;
+}
+
+a{
+	color: white;
+}
+input{
+	margin-left: 10px;
+	margin-top: 15px;
+	border: solid #512 2px;
+	font-size: 1.1em;
+}
+input:hover{
+	background:yellow;
+
+}
+p{
+	color: white;
+}
+	
+.head{
+	margin-top: -42px;
+	width: 100%;
+	height:42px;
+	background: #474376;
+	display: block;
+	position: fixed;
+}
+.head2{
+	margin-top: 42px;
+	width: 100%;
+	height:60px;
+	background: #474376;
+	display: block;
+}
+.form{
+display: inline-block;
+}
+.mag{
+	display: inline-block;
+	margin-left: 300px;
+	font-size: 2.2em;
+	color: white;
+}
+.mag p:hover{
+	color: yellow;
+	font-style: italic; 
+}
+.tov{
+	width: 100%;
+	margin:0;
+	padding: 0;
+	display:inline-block;
+	background:  #474376;
+	border-bottom: solid black 3px;
+	font-size: 2.2em;
+
+}
+.tov p{
+	color: white;
+	display: inline-block;
+
+}
+.tov p:hover{
+	color:yellow;
+	font-style: italic; 
+
+}
+.registr{
+	
+	float: right;
+	margin-right: 30px;
+	margin-top: 5px;
+	font-size: 1.5em;
+	display: block;
+	
+}
+.prodaja{
+	float: left;
+	margin-left: 30px;
+	margin-top: 5px;
+	font-size: 1.5em;
+	display: block;
+}
+.registr a{
+	color: white;
+	padding: 10px;
+}
+.prodaja  a{
+	color: white;
+	padding: 10px;
+}
+.registr a:hover{
+	background: yellow;
+	color: black;
+	font-style: italic; 
+}
+.prodaja a:hover{
+	background: yellow;
+	color: black;
+	font-style: italic; 
+
+}
+/* левое меню */
+
+
+ul{
+	width: 100%;
+	display: block;
+	margin: 0px 0px 0px 0px ;
+	padding: 0;
+	background:  #474376;
+	color: white;
+	border-bottom: solid black 1px;
+	float: left;
+}
+li ul{
+	width: 50%;
+	height: 500PX;
+	display: none;
+	position: fixed;
+	border: solid 8px ;
+	margin-top: -35px;
+	margin-left: 25%;
+	float: left;
+	
+
+
+}
+li a{
+	display: block;
+	color: white;
+	padding: 10px;
+
+
+}
+li a:hover{
+	background: yellow;
+	color: black;
+	font-style: italic; 
+
+}
+li:hover ul{
+	display: block;
+	background:#889999;
+	padding: 5px;	
+
+}
+.leftmenu{
+	width: 100%;
+	display: inline-block;
+}
+.nav{
+
+	width: 25%;
+	float: left;
+	
+}
+.menu0{
+	margin: 0px 0px 0px 0px ;
+	width: 75%;
+	height: 550px;
+	display:inline-block;
+	background: #999;
+	
+	
+
+
+}
+.menu0 p{
+
+	text-align: center;
+	
+	font-size: 2.5em;
+}
+.menu{
+	width: 20%;
+	height: 150px;
+	margin: 2.5% 2% 0% 2.5%;
+	background: #777;
+	float: left;
+	display: block;
+}
+
+
+.o1{
+	width: 100px;
+	background: black;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+.o2{
+	
+	margin: 5px 0px 250px 0px;
+	
+	display: none;
+}
+.o1 a{
+	text-decoration: none;
+	display: block; 
+}
+.o2:hover li{
+	display: block;
+
+}
+
+.g{ /* заголовок в под меню */
+	font-weight: bold;
+	color: black;
+}
+.g:hover{
+	color: yellow;
+}
+.obh{
+	display: flex;
+	justify-content: space-between;
+}
+.gg{
+	display: inline-block;
+	width: 48%;
+	
+}
+.podbottem{
+	margin-top: -0.3%;
+	width: 100%;
+	height: 50px;
+	
+}
+.podbottem_left{
+	width: 25%;
+	height: 50px;
+	background: #474376;
+	float: left;
+	border-bottom: solid black 1px;
+
+}
+.podbottem_right{
+	width: 75%;
+	height: 50px;
+	background: #999;
+	float: right;
+	display: flex;
+  	justify-content: center;
+}
+.s{
+	width: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
+	height: 50px;
+	display: block;
+  	justify-content: center;
+}
+.s a{
+	padding-top: 5px;
+	font-size: 2em;
+}
+
+.s a:hover{
+	color: black;
+	display: block;
+	color: yellow;
+	font-style: italic; 
+}
+.naxojdenie{/* на которой находишся */
+	color: black;
+}
+.bottem{
+	width: 100%;
+	height: 100px;
+	background: #474376;
+}
+.bottem p{
+	padding-top: 2.5%;
+}
+.bottem:hover p{
+	color: yellow;
+	font-style: italic; 
+}
+.bottem:hover a{
+	color: yellow;
+	font-style: italic; 
+}
